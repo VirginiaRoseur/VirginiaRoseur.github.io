@@ -9,11 +9,11 @@
 /* Variables */
 
 :root {
-    --main-color:#c57224;
+    --main-color:#57409b;
     --main-text-color: #FFF;
-    --bio-bg-color: #1E2A3A;
-    --bio-border-color: #335681;
-    --about-bg-color: #4f2280;
+    --bio-bg-color: #250938;
+    --bio-border-color: #060110;
+    --about-bg-color: #3a175f;
 }
 
 /* General */
@@ -103,9 +103,6 @@
     margin-bottom: 10px;
 }
 
-
-
-
 #btn-project {
     font-weight: bold;
     font-size: 16px;
@@ -120,13 +117,11 @@
     width: 150px;
     text-align: center;
     display: flex;
-
 }
 
 #btn-project ion-icon,
 #btn-project span {
     flex: 1 1 0;
-
 }
 
 #btn-project ion-icon {
@@ -136,6 +131,24 @@
 
 #btn-project:hover {
     background-color: transparent;
+}
+#skills-section-title {
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+#skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.skills-box {
+    flex: 1 1 33%;
+    max-width: 33%;
+    margin-bottom: 35px;
 }
 
 /* Mobile */
